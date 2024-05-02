@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true})); //Remember it
 
 app.get("/", function (req, res){
 
-  res.sendFile(__dirname + "/bmiCalculator.html");
+  res.sendFile(__dirname + "/index.html");
     
 });
 
